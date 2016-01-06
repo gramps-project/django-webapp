@@ -1,0 +1,4163 @@
+[
+   {
+      "model": "grampsdb.config",
+      "pk": 1,
+      "fields":
+         {
+            "setting"   : "sitename" ,
+            "description"   : "site name of family tree" ,
+            "value_type"   : "str" ,
+            "value"   : "Gramps-Connect" 
+         }
+   },
+   {
+      "model": "grampsdb.config",
+      "pk": 2,
+      "fields":
+         {
+            "setting"   : "db_version" ,
+            "description"   : "database scheme version" ,
+            "value_type"   : "str" ,
+            "value"   : "0.6.1" 
+         }
+   },
+   {
+      "model": "grampsdb.config",
+      "pk": 3,
+      "fields":
+         {
+            "setting"   : "db_created" ,
+            "description"   : "database creation date/time" ,
+            "value_type"   : "str" ,
+            "value"   : "2015-12-20 09:29" 
+         }
+   },
+   {
+      "model": "grampsdb.report",
+      "pk": 1,
+      "fields":
+         {
+            "name"   : "Ahnentafel Report" ,
+            "gramps_id"   : "R0001" ,
+            "handle"   : "ancestor_report" ,
+            "report_type"   : "report" 
+         }
+   },
+   {
+      "model": "grampsdb.report",
+      "pk": 2,
+      "fields":
+         {
+            "name"   : "birthday_report" ,
+            "gramps_id"   : "R0002" ,
+            "handle"   : "birthday_report" ,
+            "report_type"   : "report" 
+         }
+   },
+   {
+      "model": "grampsdb.report",
+      "pk": 3,
+      "fields":
+         {
+            "name"   : "custom_text" ,
+            "gramps_id"   : "R0003" ,
+            "handle"   : "custom_text" ,
+            "report_type"   : "report" 
+         }
+   },
+   {
+      "model": "grampsdb.report",
+      "pk": 4,
+      "fields":
+         {
+            "name"   : "descend_report" ,
+            "gramps_id"   : "R0004" ,
+            "handle"   : "descend_report" ,
+            "report_type"   : "report" 
+         }
+   },
+   {
+      "model": "grampsdb.report",
+      "pk": 5,
+      "fields":
+         {
+            "name"   : "det_ancestor_report" ,
+            "gramps_id"   : "R0005" ,
+            "handle"   : "det_ancestor_report" ,
+            "report_type"   : "report" 
+         }
+   },
+   {
+      "model": "grampsdb.report",
+      "pk": 6,
+      "fields":
+         {
+            "name"   : "det_descendant_report" ,
+            "gramps_id"   : "R0006" ,
+            "handle"   : "det_descendant_report" ,
+            "report_type"   : "report" 
+         }
+   },
+   {
+      "model": "grampsdb.report",
+      "pk": 7,
+      "fields":
+         {
+            "name"   : "endofline_report" ,
+            "gramps_id"   : "R0007" ,
+            "handle"   : "endofline_report" ,
+            "report_type"   : "report" 
+         }
+   },
+   {
+      "model": "grampsdb.report",
+      "pk": 8,
+      "fields":
+         {
+            "name"   : "family_group" ,
+            "gramps_id"   : "R0008" ,
+            "handle"   : "family_group" ,
+            "report_type"   : "report" 
+         }
+   },
+   {
+      "model": "grampsdb.report",
+      "pk": 9,
+      "fields":
+         {
+            "name"   : "indiv_complete" ,
+            "gramps_id"   : "R0009" ,
+            "handle"   : "indiv_complete" ,
+            "report_type"   : "report" 
+         }
+   },
+   {
+      "model": "grampsdb.report",
+      "pk": 10,
+      "fields":
+         {
+            "name"   : "kinship_report" ,
+            "gramps_id"   : "R0010" ,
+            "handle"   : "kinship_report" ,
+            "report_type"   : "report" 
+         }
+   },
+   {
+      "model": "grampsdb.report",
+      "pk": 11,
+      "fields":
+         {
+            "name"   : "tag_report" ,
+            "gramps_id"   : "R0011" ,
+            "handle"   : "tag_report" ,
+            "report_type"   : "report" 
+         }
+   },
+   {
+      "model": "grampsdb.report",
+      "pk": 12,
+      "fields":
+         {
+            "name"   : "number_of_ancestors" ,
+            "gramps_id"   : "R0012" ,
+            "handle"   : "number_of_ancestors" ,
+            "report_type"   : "report" 
+         }
+   },
+   {
+      "model": "grampsdb.report",
+      "pk": 13,
+      "fields":
+         {
+            "name"   : "place_report" ,
+            "gramps_id"   : "R0013" ,
+            "handle"   : "place_report" ,
+            "report_type"   : "report" 
+         }
+   },
+   {
+      "model": "grampsdb.report",
+      "pk": 14,
+      "fields":
+         {
+            "name"   : "simple_book_title" ,
+            "gramps_id"   : "R0014" ,
+            "handle"   : "simple_book_title" ,
+            "report_type"   : "report" 
+         }
+   },
+   {
+      "model": "grampsdb.report",
+      "pk": 15,
+      "fields":
+         {
+            "name"   : "summary" ,
+            "gramps_id"   : "R0015" ,
+            "handle"   : "summary" ,
+            "report_type"   : "report" 
+         }
+   },
+   {
+      "model": "grampsdb.report",
+      "pk": 16,
+      "fields":
+         {
+            "name"   : "Export" ,
+            "gramps_id"   : "R0016" ,
+            "handle"   : "gedcom_export" ,
+            "options"   : "off=ged" ,
+            "report_type"   : "export" 
+         }
+   },
+   {
+      "model": "grampsdb.report",
+      "pk": 17,
+      "fields":
+         {
+            "name"   : "Gramps XML Export" ,
+            "gramps_id"   : "R0017" ,
+            "handle"   : "ex_gpkg" ,
+            "options"   : "off=gramps" ,
+            "report_type"   : "export" 
+         }
+   },
+   {
+      "model": "grampsdb.report",
+      "pk": 18,
+      "fields":
+         {
+            "name"   : "Import" ,
+            "gramps_id"   : "R0018" ,
+            "handle"   : "im_ged" ,
+            "options"   : "iff=ged\ni=http://arborvita.free.fr/Kennedy/Kennedy.ged" ,
+            "report_type"   : "import" 
+         }
+   },
+   {
+      "model": "grampsdb.report",
+      "pk": 19,
+      "fields":
+         {
+            "name"   : "Gramps package (portable XML) Import" ,
+            "gramps_id"   : "R0019" ,
+            "handle"   : "im_gpkg" ,
+            "options"   : "iff=gramps\ni=https://raw.githubusercontent.com/gramps-project/gramps/master/example/gramps/example.gramps" ,
+            "report_type"   : "import" 
+         }
+   },
+   {
+      "model": "grampsdb.config",
+      "pk": 4,
+      "fields":
+         {
+            "setting"   : "geography.center-lat",
+            "value_type"   : "float",
+            "value": "0.0"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 5,
+      "fields":
+         {
+            "setting"   : "geography.map",
+            "value_type"   : "str",
+            "value": "person"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 6,
+      "fields":
+         {
+            "setting"   : "geography.map_service",
+            "value_type"   : "int",
+            "value": "1"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 7,
+      "fields":
+         {
+            "setting"   : "geography.lock",
+            "value_type"   : "bool",
+            "value": "False"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 8,
+      "fields":
+         {
+            "setting"   : "geography.use-keypad",
+            "value_type"   : "bool",
+            "value": "True"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 9,
+      "fields":
+         {
+            "setting"   : "geography.show_cross",
+            "value_type"   : "bool",
+            "value": "False"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 10,
+      "fields":
+         {
+            "setting"   : "geography.center-lon",
+            "value_type"   : "float",
+            "value": "0.0"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 11,
+      "fields":
+         {
+            "setting"   : "geography.path",
+            "value_type"   : "str",
+            "value": ""
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 12,
+      "fields":
+         {
+            "setting"   : "geography.zoom_when_center",
+            "value_type"   : "int",
+            "value": "12"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 13,
+      "fields":
+         {
+            "setting"   : "geography.zoom",
+            "value_type"   : "int",
+            "value": "0"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 14,
+      "fields":
+         {
+            "setting"   : "preferences.no-record-text",
+            "value_type"   : "str",
+            "value": "[Missing Record]"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 15,
+      "fields":
+         {
+            "setting"   : "preferences.family-warn",
+            "value_type"   : "bool",
+            "value": "True"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 16,
+      "fields":
+         {
+            "setting"   : "preferences.place-restrict",
+            "value_type"   : "int",
+            "value": "0"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 17,
+      "fields":
+         {
+            "setting"   : "preferences.place-lang",
+            "value_type"   : "str",
+            "value": ""
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 18,
+      "fields":
+         {
+            "setting"   : "preferences.bordercolor-gender-unknown-death",
+            "value_type"   : "str",
+            "value": "#000000"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 19,
+      "fields":
+         {
+            "setting"   : "preferences.oprefix",
+            "value_type"   : "str",
+            "value": "O%04d"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 20,
+      "fields":
+         {
+            "setting"   : "preferences.tag-on-import-format",
+            "value_type"   : "str",
+            "value": "Imported %Y/%m/%d %H:%M:%S"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 21,
+      "fields":
+         {
+            "setting"   : "preferences.color-gender-unknown-alive",
+            "value_type"   : "str",
+            "value": "#f3dbb6"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 22,
+      "fields":
+         {
+            "setting"   : "preferences.age-display-precision",
+            "value_type"   : "int",
+            "value": "1"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 23,
+      "fields":
+         {
+            "setting"   : "preferences.last-view",
+            "value_type"   : "str",
+            "value": ""
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 24,
+      "fields":
+         {
+            "setting"   : "preferences.patronimic-surname",
+            "value_type"   : "bool",
+            "value": "False"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 25,
+      "fields":
+         {
+            "setting"   : "preferences.private-record-text",
+            "value_type"   : "str",
+            "value": "[Private Record]"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 26,
+      "fields":
+         {
+            "setting"   : "preferences.online-maps",
+            "value_type"   : "bool",
+            "value": "False"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 27,
+      "fields":
+         {
+            "setting"   : "preferences.color-gender-female-death",
+            "value_type"   : "str",
+            "value": "#feccf0"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 28,
+      "fields":
+         {
+            "setting"   : "preferences.invalid-date-format",
+            "value_type"   : "str",
+            "value": "<b>%s</b>"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 29,
+      "fields":
+         {
+            "setting"   : "preferences.family-relation-type",
+            "value_type"   : "int",
+            "value": "3"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 30,
+      "fields":
+         {
+            "setting"   : "preferences.bordercolor-gender-female-alive",
+            "value_type"   : "str",
+            "value": "#861f69"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 31,
+      "fields":
+         {
+            "setting"   : "preferences.no-given-text",
+            "value_type"   : "str",
+            "value": "[Missing Given Name]"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 32,
+      "fields":
+         {
+            "setting"   : "preferences.color-gender-female-alive",
+            "value_type"   : "str",
+            "value": "#feccf0"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 33,
+      "fields":
+         {
+            "setting"   : "preferences.default-source",
+            "value_type"   : "bool",
+            "value": "False"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 34,
+      "fields":
+         {
+            "setting"   : "preferences.place-number",
+            "value_type"   : "bool",
+            "value": "False"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 35,
+      "fields":
+         {
+            "setting"   : "preferences.paper-preference",
+            "value_type"   : "str",
+            "value": "Letter"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 36,
+      "fields":
+         {
+            "setting"   : "preferences.pprefix",
+            "value_type"   : "str",
+            "value": "P%04d"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 37,
+      "fields":
+         {
+            "setting"   : "preferences.cprefix",
+            "value_type"   : "str",
+            "value": "C%04d"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 38,
+      "fields":
+         {
+            "setting"   : "preferences.fprefix",
+            "value_type"   : "str",
+            "value": "F%04d"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 39,
+      "fields":
+         {
+            "setting"   : "preferences.place-auto",
+            "value_type"   : "bool",
+            "value": "True"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 40,
+      "fields":
+         {
+            "setting"   : "preferences.use-last-view",
+            "value_type"   : "bool",
+            "value": "False"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 41,
+      "fields":
+         {
+            "setting"   : "preferences.calendar-format-report",
+            "value_type"   : "int",
+            "value": "0"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 42,
+      "fields":
+         {
+            "setting"   : "preferences.no-surname-text",
+            "value_type"   : "str",
+            "value": "[Missing Surname]"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 43,
+      "fields":
+         {
+            "setting"   : "preferences.nprefix",
+            "value_type"   : "str",
+            "value": "N%04d"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 44,
+      "fields":
+         {
+            "setting"   : "preferences.color-gender-male-death",
+            "value_type"   : "str",
+            "value": "#b8cee6"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 45,
+      "fields":
+         {
+            "setting"   : "preferences.bordercolor-gender-female-death",
+            "value_type"   : "str",
+            "value": "#000000"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 46,
+      "fields":
+         {
+            "setting"   : "preferences.date-format",
+            "value_type"   : "int",
+            "value": "0"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 47,
+      "fields":
+         {
+            "setting"   : "preferences.rprefix",
+            "value_type"   : "str",
+            "value": "R%04d"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 48,
+      "fields":
+         {
+            "setting"   : "preferences.tag-on-import",
+            "value_type"   : "bool",
+            "value": "False"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 49,
+      "fields":
+         {
+            "setting"   : "preferences.eprefix",
+            "value_type"   : "str",
+            "value": "E%04d"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 50,
+      "fields":
+         {
+            "setting"   : "preferences.bordercolor-gender-unknown-alive",
+            "value_type"   : "str",
+            "value": "#8e5801"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 51,
+      "fields":
+         {
+            "setting"   : "preferences.place-reverse",
+            "value_type"   : "bool",
+            "value": "False"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 52,
+      "fields":
+         {
+            "setting"   : "preferences.name-format",
+            "value_type"   : "int",
+            "value": "1"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 53,
+      "fields":
+         {
+            "setting"   : "preferences.private-surname-text",
+            "value_type"   : "str",
+            "value": "[Living]"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 54,
+      "fields":
+         {
+            "setting"   : "preferences.color-gender-male-alive",
+            "value_type"   : "str",
+            "value": "#b8cee6"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 55,
+      "fields":
+         {
+            "setting"   : "preferences.last-views",
+            "value_type"   : "list",
+            "value": "[]"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 56,
+      "fields":
+         {
+            "setting"   : "preferences.bordercolor-gender-male-death",
+            "value_type"   : "str",
+            "value": "#000000"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 57,
+      "fields":
+         {
+            "setting"   : "preferences.bordercolor-gender-male-alive",
+            "value_type"   : "str",
+            "value": "#1f4986"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 58,
+      "fields":
+         {
+            "setting"   : "preferences.sprefix",
+            "value_type"   : "str",
+            "value": "S%04d"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 59,
+      "fields":
+         {
+            "setting"   : "preferences.private-given-text",
+            "value_type"   : "str",
+            "value": "[Living]"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 60,
+      "fields":
+         {
+            "setting"   : "preferences.hide-ep-msg",
+            "value_type"   : "bool",
+            "value": "False"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 61,
+      "fields":
+         {
+            "setting"   : "preferences.color-gender-unknown-death",
+            "value_type"   : "str",
+            "value": "#f3dbb6"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 62,
+      "fields":
+         {
+            "setting"   : "preferences.paper-metric",
+            "value_type"   : "int",
+            "value": "0"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 63,
+      "fields":
+         {
+            "setting"   : "preferences.iprefix",
+            "value_type"   : "str",
+            "value": "I%04d"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 64,
+      "fields":
+         {
+            "setting"   : "researcher.researcher-city",
+            "value_type"   : "str",
+            "value": ""
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 65,
+      "fields":
+         {
+            "setting"   : "researcher.researcher-name",
+            "value_type"   : "str",
+            "value": ""
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 66,
+      "fields":
+         {
+            "setting"   : "researcher.researcher-country",
+            "value_type"   : "str",
+            "value": ""
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 67,
+      "fields":
+         {
+            "setting"   : "researcher.researcher-postal",
+            "value_type"   : "str",
+            "value": ""
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 68,
+      "fields":
+         {
+            "setting"   : "researcher.researcher-locality",
+            "value_type"   : "str",
+            "value": ""
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 69,
+      "fields":
+         {
+            "setting"   : "researcher.researcher-addr",
+            "value_type"   : "str",
+            "value": ""
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 70,
+      "fields":
+         {
+            "setting"   : "researcher.researcher-phone",
+            "value_type"   : "str",
+            "value": ""
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 71,
+      "fields":
+         {
+            "setting"   : "researcher.researcher-state",
+            "value_type"   : "str",
+            "value": ""
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 72,
+      "fields":
+         {
+            "setting"   : "researcher.researcher-email",
+            "value_type"   : "str",
+            "value": ""
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 73,
+      "fields":
+         {
+            "setting"   : "interface.pedview-tree-direction",
+            "value_type"   : "int",
+            "value": "2"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 74,
+      "fields":
+         {
+            "setting"   : "interface.media-height",
+            "value_type"   : "int",
+            "value": "450"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 75,
+      "fields":
+         {
+            "setting"   : "interface.event-ref-height",
+            "value_type"   : "int",
+            "value": "450"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 76,
+      "fields":
+         {
+            "setting"   : "interface.event-sel-height",
+            "value_type"   : "int",
+            "value": "450"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 77,
+      "fields":
+         {
+            "setting"   : "interface.location-height",
+            "value_type"   : "int",
+            "value": "250"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 78,
+      "fields":
+         {
+            "setting"   : "interface.place-width",
+            "value_type"   : "int",
+            "value": "650"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 79,
+      "fields":
+         {
+            "setting"   : "interface.edit-rule-width",
+            "value_type"   : "int",
+            "value": "600"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 80,
+      "fields":
+         {
+            "setting"   : "interface.attribute-width",
+            "value_type"   : "int",
+            "value": "600"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 81,
+      "fields":
+         {
+            "setting"   : "interface.family-width",
+            "value_type"   : "int",
+            "value": "700"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 82,
+      "fields":
+         {
+            "setting"   : "interface.width",
+            "value_type"   : "int",
+            "value": "775"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 83,
+      "fields":
+         {
+            "setting"   : "interface.fullscreen",
+            "value_type"   : "bool",
+            "value": "False"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 84,
+      "fields":
+         {
+            "setting"   : "interface.citation-height",
+            "value_type"   : "int",
+            "value": "450"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 85,
+      "fields":
+         {
+            "setting"   : "interface.place-ref-height",
+            "value_type"   : "int",
+            "value": "450"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 86,
+      "fields":
+         {
+            "setting"   : "interface.family-height",
+            "value_type"   : "int",
+            "value": "500"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 87,
+      "fields":
+         {
+            "setting"   : "interface.surname-box-height",
+            "value_type"   : "int",
+            "value": "150"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 88,
+      "fields":
+         {
+            "setting"   : "interface.source-sel-height",
+            "value_type"   : "int",
+            "value": "450"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 89,
+      "fields":
+         {
+            "setting"   : "interface.repo-ref-height",
+            "value_type"   : "int",
+            "value": "450"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 90,
+      "fields":
+         {
+            "setting"   : "interface.place-ref-width",
+            "value_type"   : "int",
+            "value": "600"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 91,
+      "fields":
+         {
+            "setting"   : "interface.url-width",
+            "value_type"   : "int",
+            "value": "600"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 92,
+      "fields":
+         {
+            "setting"   : "interface.media-sel-height",
+            "value_type"   : "int",
+            "value": "450"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 93,
+      "fields":
+         {
+            "setting"   : "interface.place-sel-width",
+            "value_type"   : "int",
+            "value": "600"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 94,
+      "fields":
+         {
+            "setting"   : "interface.ignore-gexiv2",
+            "value_type"   : "bool",
+            "value": "False"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 95,
+      "fields":
+         {
+            "setting"   : "interface.grampletbar-close",
+            "value_type"   : "bool",
+            "value": "False"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 96,
+      "fields":
+         {
+            "setting"   : "interface.pedview-tree-size",
+            "value_type"   : "int",
+            "value": "5"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 97,
+      "fields":
+         {
+            "setting"   : "interface.family-sel-width",
+            "value_type"   : "int",
+            "value": "600"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 98,
+      "fields":
+         {
+            "setting"   : "interface.place-sel-height",
+            "value_type"   : "int",
+            "value": "450"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 99,
+      "fields":
+         {
+            "setting"   : "interface.note-width",
+            "value_type"   : "int",
+            "value": "700"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 100,
+      "fields":
+         {
+            "setting"   : "interface.person-sel-height",
+            "value_type"   : "int",
+            "value": "450"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 101,
+      "fields":
+         {
+            "setting"   : "interface.repo-sel-height",
+            "value_type"   : "int",
+            "value": "450"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 102,
+      "fields":
+         {
+            "setting"   : "interface.name-height",
+            "value_type"   : "int",
+            "value": "350"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 103,
+      "fields":
+         {
+            "setting"   : "interface.citation-sel-width",
+            "value_type"   : "int",
+            "value": "600"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 104,
+      "fields":
+         {
+            "setting"   : "interface.url-height",
+            "value_type"   : "int",
+            "value": "150"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 105,
+      "fields":
+         {
+            "setting"   : "interface.citation-sel-height",
+            "value_type"   : "int",
+            "value": "450"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 106,
+      "fields":
+         {
+            "setting"   : "interface.clipboard-width",
+            "value_type"   : "int",
+            "value": "300"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 107,
+      "fields":
+         {
+            "setting"   : "interface.event-sel-width",
+            "value_type"   : "int",
+            "value": "600"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 108,
+      "fields":
+         {
+            "setting"   : "interface.repo-ref-width",
+            "value_type"   : "int",
+            "value": "600"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 109,
+      "fields":
+         {
+            "setting"   : "interface.edit-filter-width",
+            "value_type"   : "int",
+            "value": "500"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 110,
+      "fields":
+         {
+            "setting"   : "interface.repo-sel-width",
+            "value_type"   : "int",
+            "value": "600"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 111,
+      "fields":
+         {
+            "setting"   : "interface.event-ref-width",
+            "value_type"   : "int",
+            "value": "600"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 112,
+      "fields":
+         {
+            "setting"   : "interface.sidebar-text",
+            "value_type"   : "bool",
+            "value": "True"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 113,
+      "fields":
+         {
+            "setting"   : "interface.person-width",
+            "value_type"   : "int",
+            "value": "750"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 114,
+      "fields":
+         {
+            "setting"   : "interface.view-categories",
+            "value_type"   : "list",
+            "value": "['Dashboard', 'People', 'Relationships', 'Families', 'Ancestry', 'Events', 'Places', 'Geography', 'Sources', 'Citations', 'Repositories', 'Media', 'Notes']"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 115,
+      "fields":
+         {
+            "setting"   : "interface.family-sel-height",
+            "value_type"   : "int",
+            "value": "450"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 116,
+      "fields":
+         {
+            "setting"   : "interface.source-width",
+            "value_type"   : "int",
+            "value": "600"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 117,
+      "fields":
+         {
+            "setting"   : "interface.view",
+            "value_type"   : "bool",
+            "value": "True"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 118,
+      "fields":
+         {
+            "setting"   : "interface.repo-height",
+            "value_type"   : "int",
+            "value": "450"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 119,
+      "fields":
+         {
+            "setting"   : "interface.person-height",
+            "value_type"   : "int",
+            "value": "550"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 120,
+      "fields":
+         {
+            "setting"   : "interface.clipboard-height",
+            "value_type"   : "int",
+            "value": "300"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 121,
+      "fields":
+         {
+            "setting"   : "interface.filter-editor-height",
+            "value_type"   : "int",
+            "value": "350"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 122,
+      "fields":
+         {
+            "setting"   : "interface.statusbar",
+            "value_type"   : "int",
+            "value": "1"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 123,
+      "fields":
+         {
+            "setting"   : "interface.address-height",
+            "value_type"   : "int",
+            "value": "450"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 124,
+      "fields":
+         {
+            "setting"   : "interface.height",
+            "value_type"   : "int",
+            "value": "500"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 125,
+      "fields":
+         {
+            "setting"   : "interface.filter-editor-width",
+            "value_type"   : "int",
+            "value": "400"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 126,
+      "fields":
+         {
+            "setting"   : "interface.media-ref-height",
+            "value_type"   : "int",
+            "value": "450"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 127,
+      "fields":
+         {
+            "setting"   : "interface.media-sel-width",
+            "value_type"   : "int",
+            "value": "600"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 128,
+      "fields":
+         {
+            "setting"   : "interface.lds-width",
+            "value_type"   : "int",
+            "value": "600"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 129,
+      "fields":
+         {
+            "setting"   : "interface.source-ref-width",
+            "value_type"   : "int",
+            "value": "600"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 130,
+      "fields":
+         {
+            "setting"   : "interface.mapservice",
+            "value_type"   : "str",
+            "value": "OpenStreetMap"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 131,
+      "fields":
+         {
+            "setting"   : "interface.source-height",
+            "value_type"   : "int",
+            "value": "450"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 132,
+      "fields":
+         {
+            "setting"   : "interface.edit-rule-height",
+            "value_type"   : "int",
+            "value": "450"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 133,
+      "fields":
+         {
+            "setting"   : "interface.name-width",
+            "value_type"   : "int",
+            "value": "600"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 134,
+      "fields":
+         {
+            "setting"   : "interface.lds-height",
+            "value_type"   : "int",
+            "value": "450"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 135,
+      "fields":
+         {
+            "setting"   : "interface.pedview-show-images",
+            "value_type"   : "bool",
+            "value": "True"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 136,
+      "fields":
+         {
+            "setting"   : "interface.note-height",
+            "value_type"   : "int",
+            "value": "500"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 137,
+      "fields":
+         {
+            "setting"   : "interface.child-ref-width",
+            "value_type"   : "int",
+            "value": "600"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 138,
+      "fields":
+         {
+            "setting"   : "interface.location-width",
+            "value_type"   : "int",
+            "value": "600"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 139,
+      "fields":
+         {
+            "setting"   : "interface.note-sel-width",
+            "value_type"   : "int",
+            "value": "600"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 140,
+      "fields":
+         {
+            "setting"   : "interface.citation-width",
+            "value_type"   : "int",
+            "value": "600"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 141,
+      "fields":
+         {
+            "setting"   : "interface.event-width",
+            "value_type"   : "int",
+            "value": "600"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 142,
+      "fields":
+         {
+            "setting"   : "interface.note-sel-height",
+            "value_type"   : "int",
+            "value": "450"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 143,
+      "fields":
+         {
+            "setting"   : "interface.source-ref-height",
+            "value_type"   : "int",
+            "value": "450"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 144,
+      "fields":
+         {
+            "setting"   : "interface.attribute-height",
+            "value_type"   : "int",
+            "value": "350"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 145,
+      "fields":
+         {
+            "setting"   : "interface.pedview-show-unknown-people",
+            "value_type"   : "bool",
+            "value": "False"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 146,
+      "fields":
+         {
+            "setting"   : "interface.event-height",
+            "value_type"   : "int",
+            "value": "450"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 147,
+      "fields":
+         {
+            "setting"   : "interface.place-name-height",
+            "value_type"   : "int",
+            "value": "100"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 148,
+      "fields":
+         {
+            "setting"   : "interface.open-with-default-viewer",
+            "value_type"   : "bool",
+            "value": "False"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 149,
+      "fields":
+         {
+            "setting"   : "interface.media-width",
+            "value_type"   : "int",
+            "value": "650"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 150,
+      "fields":
+         {
+            "setting"   : "interface.place-height",
+            "value_type"   : "int",
+            "value": "450"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 151,
+      "fields":
+         {
+            "setting"   : "interface.place-name-width",
+            "value_type"   : "int",
+            "value": "450"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 152,
+      "fields":
+         {
+            "setting"   : "interface.pedview-layout",
+            "value_type"   : "int",
+            "value": "0"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 153,
+      "fields":
+         {
+            "setting"   : "interface.person-ref-width",
+            "value_type"   : "int",
+            "value": "600"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 154,
+      "fields":
+         {
+            "setting"   : "interface.edit-filter-height",
+            "value_type"   : "int",
+            "value": "420"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 155,
+      "fields":
+         {
+            "setting"   : "interface.media-ref-width",
+            "value_type"   : "int",
+            "value": "600"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 156,
+      "fields":
+         {
+            "setting"   : "interface.ignore-osmgpsmap",
+            "value_type"   : "bool",
+            "value": "False"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 157,
+      "fields":
+         {
+            "setting"   : "interface.person-sel-width",
+            "value_type"   : "int",
+            "value": "600"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 158,
+      "fields":
+         {
+            "setting"   : "interface.filter",
+            "value_type"   : "bool",
+            "value": "False"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 159,
+      "fields":
+         {
+            "setting"   : "interface.toolbar-on",
+            "value_type"   : "bool",
+            "value": "True"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 160,
+      "fields":
+         {
+            "setting"   : "interface.size-checked",
+            "value_type"   : "bool",
+            "value": "False"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 161,
+      "fields":
+         {
+            "setting"   : "interface.dont-ask",
+            "value_type"   : "bool",
+            "value": "False"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 162,
+      "fields":
+         {
+            "setting"   : "interface.pedview-show-marriage",
+            "value_type"   : "bool",
+            "value": "False"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 163,
+      "fields":
+         {
+            "setting"   : "interface.child-ref-height",
+            "value_type"   : "int",
+            "value": "450"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 164,
+      "fields":
+         {
+            "setting"   : "interface.address-width",
+            "value_type"   : "int",
+            "value": "650"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 165,
+      "fields":
+         {
+            "setting"   : "interface.person-ref-height",
+            "value_type"   : "int",
+            "value": "350"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 166,
+      "fields":
+         {
+            "setting"   : "interface.source-sel-width",
+            "value_type"   : "int",
+            "value": "600"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 167,
+      "fields":
+         {
+            "setting"   : "interface.repo-width",
+            "value_type"   : "int",
+            "value": "650"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 168,
+      "fields":
+         {
+            "setting"   : "interface.treemodel-cache-size",
+            "value_type"   : "int",
+            "value": "1000"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 169,
+      "fields":
+         {
+            "setting"   : "paths.website-directory",
+            "value_type"   : "str",
+            "value": "/home/dblank"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 170,
+      "fields":
+         {
+            "setting"   : "paths.recent-import-dir",
+            "value_type"   : "str",
+            "value": ""
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 171,
+      "fields":
+         {
+            "setting"   : "paths.website-cms-uri",
+            "value_type"   : "str",
+            "value": ""
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 172,
+      "fields":
+         {
+            "setting"   : "paths.recent-file",
+            "value_type"   : "str",
+            "value": ""
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 173,
+      "fields":
+         {
+            "setting"   : "paths.quick-backup-directory",
+            "value_type"   : "str",
+            "value": "/home/dblank"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 174,
+      "fields":
+         {
+            "setting"   : "paths.quick-backup-filename",
+            "value_type"   : "str",
+            "value": "%(filename)s_%(year)d-%(month)02d-%(day)02d.%(extension)s"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 175,
+      "fields":
+         {
+            "setting"   : "paths.report-directory",
+            "value_type"   : "str",
+            "value": "/home/dblank"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 176,
+      "fields":
+         {
+            "setting"   : "paths.recent-export-dir",
+            "value_type"   : "str",
+            "value": ""
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 177,
+      "fields":
+         {
+            "setting"   : "behavior.date-before-range",
+            "value_type"   : "int",
+            "value": "50"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 178,
+      "fields":
+         {
+            "setting"   : "behavior.check-for-updates",
+            "value_type"   : "int",
+            "value": "0"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 179,
+      "fields":
+         {
+            "setting"   : "behavior.addmedia-image-dir",
+            "value_type"   : "str",
+            "value": ""
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 180,
+      "fields":
+         {
+            "setting"   : "behavior.max-age-prob-alive",
+            "value_type"   : "int",
+            "value": "110"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 181,
+      "fields":
+         {
+            "setting"   : "behavior.autoload",
+            "value_type"   : "bool",
+            "value": "False"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 182,
+      "fields":
+         {
+            "setting"   : "behavior.use-tips",
+            "value_type"   : "bool",
+            "value": "False"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 183,
+      "fields":
+         {
+            "setting"   : "behavior.owner-warn",
+            "value_type"   : "bool",
+            "value": "False"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 184,
+      "fields":
+         {
+            "setting"   : "behavior.welcome",
+            "value_type"   : "int",
+            "value": "100"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 185,
+      "fields":
+         {
+            "setting"   : "behavior.check-for-update-types",
+            "value_type"   : "list",
+            "value": "['new']"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 186,
+      "fields":
+         {
+            "setting"   : "behavior.betawarn",
+            "value_type"   : "bool",
+            "value": "False"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 187,
+      "fields":
+         {
+            "setting"   : "behavior.pop-plugin-status",
+            "value_type"   : "bool",
+            "value": "False"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 188,
+      "fields":
+         {
+            "setting"   : "behavior.min-generation-years",
+            "value_type"   : "int",
+            "value": "13"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 189,
+      "fields":
+         {
+            "setting"   : "behavior.recent-export-type",
+            "value_type"   : "int",
+            "value": "3"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 190,
+      "fields":
+         {
+            "setting"   : "behavior.spellcheck",
+            "value_type"   : "bool",
+            "value": "False"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 191,
+      "fields":
+         {
+            "setting"   : "behavior.addmedia-relative-path",
+            "value_type"   : "bool",
+            "value": "False"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 192,
+      "fields":
+         {
+            "setting"   : "behavior.database-backend",
+            "value_type"   : "str",
+            "value": "bsddb"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 193,
+      "fields":
+         {
+            "setting"   : "behavior.surname-guessing",
+            "value_type"   : "int",
+            "value": "0"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 194,
+      "fields":
+         {
+            "setting"   : "behavior.database-path",
+            "value_type"   : "str",
+            "value": "/home/dblank/.gramps/grampsdb"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 195,
+      "fields":
+         {
+            "setting"   : "behavior.addons-url",
+            "value_type"   : "str",
+            "value": "https://raw.githubusercontent.com/gramps-project/addons/master/gramps50"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 196,
+      "fields":
+         {
+            "setting"   : "behavior.startup",
+            "value_type"   : "int",
+            "value": "0"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 197,
+      "fields":
+         {
+            "setting"   : "behavior.date-after-range",
+            "value_type"   : "int",
+            "value": "50"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 198,
+      "fields":
+         {
+            "setting"   : "behavior.date-about-range",
+            "value_type"   : "int",
+            "value": "50"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 199,
+      "fields":
+         {
+            "setting"   : "behavior.do-not-show-previously-seen-updates",
+            "value_type"   : "bool",
+            "value": "True"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 200,
+      "fields":
+         {
+            "setting"   : "behavior.avg-generation-gap",
+            "value_type"   : "int",
+            "value": "20"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 201,
+      "fields":
+         {
+            "setting"   : "behavior.web-search-url",
+            "value_type"   : "str",
+            "value": "http://google.com/#&q=%(text)s"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 202,
+      "fields":
+         {
+            "setting"   : "behavior.last-check-for-updates",
+            "value_type"   : "str",
+            "value": "1970/01/01"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 203,
+      "fields":
+         {
+            "setting"   : "behavior.previously-seen-updates",
+            "value_type"   : "list",
+            "value": "[]"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 204,
+      "fields":
+         {
+            "setting"   : "behavior.max-sib-age-diff",
+            "value_type"   : "int",
+            "value": "20"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 205,
+      "fields":
+         {
+            "setting"   : "behavior.generation-depth",
+            "value_type"   : "int",
+            "value": "15"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 206,
+      "fields":
+         {
+            "setting"   : "plugin.addonplugins",
+            "value_type"   : "list",
+            "value": "[]"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 207,
+      "fields":
+         {
+            "setting"   : "plugin.hiddenplugins",
+            "value_type"   : "list",
+            "value": "[]"
+         }
+   },    {
+      "model": "grampsdb.config",
+      "pk": 208,
+      "fields":
+         {
+            "setting"   : "export.proxy-order",
+            "value_type"   : "list",
+            "value": "[['privacy', 0], ['living', 0], ['person', 0], ['note', 0], ['reference', 0]]"
+         }
+   },    {
+      "model": "grampsdb.nametype",
+      "pk": 1,
+      "fields":
+         {
+            "val"   : -1,
+            "name": "Unknown"
+         }
+   } ,
+   {
+      "model": "grampsdb.nametype",
+      "pk": 2,
+      "fields":
+         {
+            "val"   : 0,
+            "name": "Custom"
+         }
+   } ,
+   {
+      "model": "grampsdb.nametype",
+      "pk": 3,
+      "fields":
+         {
+            "val"   : 1,
+            "name": "Also Known As"
+         }
+   } ,
+   {
+      "model": "grampsdb.nametype",
+      "pk": 4,
+      "fields":
+         {
+            "val"   : 2,
+            "name": "Birth Name"
+         }
+   } ,
+   {
+      "model": "grampsdb.nametype",
+      "pk": 5,
+      "fields":
+         {
+            "val"   : 3,
+            "name": "Married Name"
+         }
+   } ,
+   {
+      "model": "grampsdb.nameorigintype",
+      "pk": 1,
+      "fields":
+         {
+            "val"   : 1,
+            "name": ""
+         }
+   } ,
+   {
+      "model": "grampsdb.nameorigintype",
+      "pk": 2,
+      "fields":
+         {
+            "val"   : 0,
+            "name": "Custom"
+         }
+   } ,
+   {
+      "model": "grampsdb.nameorigintype",
+      "pk": 3,
+      "fields":
+         {
+            "val"   : 7,
+            "name": "Feudal"
+         }
+   } ,
+   {
+      "model": "grampsdb.nameorigintype",
+      "pk": 4,
+      "fields":
+         {
+            "val"   : 3,
+            "name": "Given"
+         }
+   } ,
+   {
+      "model": "grampsdb.nameorigintype",
+      "pk": 5,
+      "fields":
+         {
+            "val"   : 2,
+            "name": "Inherited"
+         }
+   } ,
+   {
+      "model": "grampsdb.nameorigintype",
+      "pk": 6,
+      "fields":
+         {
+            "val"   : 12,
+            "name": "Location"
+         }
+   } ,
+   {
+      "model": "grampsdb.nameorigintype",
+      "pk": 7,
+      "fields":
+         {
+            "val"   : 10,
+            "name": "Matrilineal"
+         }
+   } ,
+   {
+      "model": "grampsdb.nameorigintype",
+      "pk": 8,
+      "fields":
+         {
+            "val"   : 6,
+            "name": "Matronymic"
+         }
+   } ,
+   {
+      "model": "grampsdb.nameorigintype",
+      "pk": 9,
+      "fields":
+         {
+            "val"   : 11,
+            "name": "Occupation"
+         }
+   } ,
+   {
+      "model": "grampsdb.nameorigintype",
+      "pk": 10,
+      "fields":
+         {
+            "val"   : 9,
+            "name": "Patrilineal"
+         }
+   } ,
+   {
+      "model": "grampsdb.nameorigintype",
+      "pk": 11,
+      "fields":
+         {
+            "val"   : 5,
+            "name": "Patronymic"
+         }
+   } ,
+   {
+      "model": "grampsdb.nameorigintype",
+      "pk": 12,
+      "fields":
+         {
+            "val"   : 8,
+            "name": "Pseudonym"
+         }
+   } ,
+   {
+      "model": "grampsdb.nameorigintype",
+      "pk": 13,
+      "fields":
+         {
+            "val"   : 4,
+            "name": "Taken"
+         }
+   } ,
+   {
+      "model": "grampsdb.nameorigintype",
+      "pk": 14,
+      "fields":
+         {
+            "val"   : -1,
+            "name": "Unknown"
+         }
+   } ,
+   {
+      "model": "grampsdb.attributetype",
+      "pk": 1,
+      "fields":
+         {
+            "val"   : -1,
+            "name": "Unknown"
+         }
+   } ,
+   {
+      "model": "grampsdb.attributetype",
+      "pk": 2,
+      "fields":
+         {
+            "val"   : 0,
+            "name": "Custom"
+         }
+   } ,
+   {
+      "model": "grampsdb.attributetype",
+      "pk": 3,
+      "fields":
+         {
+            "val"   : 1,
+            "name": "Caste"
+         }
+   } ,
+   {
+      "model": "grampsdb.attributetype",
+      "pk": 4,
+      "fields":
+         {
+            "val"   : 2,
+            "name": "Description"
+         }
+   } ,
+   {
+      "model": "grampsdb.attributetype",
+      "pk": 5,
+      "fields":
+         {
+            "val"   : 3,
+            "name": "Identification Number"
+         }
+   } ,
+   {
+      "model": "grampsdb.attributetype",
+      "pk": 6,
+      "fields":
+         {
+            "val"   : 4,
+            "name": "National Origin"
+         }
+   } ,
+   {
+      "model": "grampsdb.attributetype",
+      "pk": 7,
+      "fields":
+         {
+            "val"   : 5,
+            "name": "Number of Children"
+         }
+   } ,
+   {
+      "model": "grampsdb.attributetype",
+      "pk": 8,
+      "fields":
+         {
+            "val"   : 6,
+            "name": "Social Security Number"
+         }
+   } ,
+   {
+      "model": "grampsdb.attributetype",
+      "pk": 9,
+      "fields":
+         {
+            "val"   : 7,
+            "name": "Nickname"
+         }
+   } ,
+   {
+      "model": "grampsdb.attributetype",
+      "pk": 10,
+      "fields":
+         {
+            "val"   : 8,
+            "name": "Cause"
+         }
+   } ,
+   {
+      "model": "grampsdb.attributetype",
+      "pk": 11,
+      "fields":
+         {
+            "val"   : 9,
+            "name": "Agency"
+         }
+   } ,
+   {
+      "model": "grampsdb.attributetype",
+      "pk": 12,
+      "fields":
+         {
+            "val"   : 10,
+            "name": "Age"
+         }
+   } ,
+   {
+      "model": "grampsdb.attributetype",
+      "pk": 13,
+      "fields":
+         {
+            "val"   : 11,
+            "name": "Father Age"
+         }
+   } ,
+   {
+      "model": "grampsdb.attributetype",
+      "pk": 14,
+      "fields":
+         {
+            "val"   : 12,
+            "name": "Mother Age"
+         }
+   } ,
+   {
+      "model": "grampsdb.attributetype",
+      "pk": 15,
+      "fields":
+         {
+            "val"   : 13,
+            "name": "Witness"
+         }
+   } ,
+   {
+      "model": "grampsdb.attributetype",
+      "pk": 16,
+      "fields":
+         {
+            "val"   : 14,
+            "name": "Time"
+         }
+   } ,
+   {
+      "model": "grampsdb.urltype",
+      "pk": 1,
+      "fields":
+         {
+            "val"   : -1,
+            "name": "Unknown"
+         }
+   } ,
+   {
+      "model": "grampsdb.urltype",
+      "pk": 2,
+      "fields":
+         {
+            "val"   : 0,
+            "name": "Custom"
+         }
+   } ,
+   {
+      "model": "grampsdb.urltype",
+      "pk": 3,
+      "fields":
+         {
+            "val"   : 1,
+            "name": "E-mail"
+         }
+   } ,
+   {
+      "model": "grampsdb.urltype",
+      "pk": 4,
+      "fields":
+         {
+            "val"   : 2,
+            "name": "Web Home"
+         }
+   } ,
+   {
+      "model": "grampsdb.urltype",
+      "pk": 5,
+      "fields":
+         {
+            "val"   : 3,
+            "name": "Web Search"
+         }
+   } ,
+   {
+      "model": "grampsdb.urltype",
+      "pk": 6,
+      "fields":
+         {
+            "val"   : 4,
+            "name": "FTP"
+         }
+   } ,
+   {
+      "model": "grampsdb.childreftype",
+      "pk": 1,
+      "fields":
+         {
+            "val"   : 0,
+            "name": "None"
+         }
+   } ,
+   {
+      "model": "grampsdb.childreftype",
+      "pk": 2,
+      "fields":
+         {
+            "val"   : 1,
+            "name": "Birth"
+         }
+   } ,
+   {
+      "model": "grampsdb.childreftype",
+      "pk": 3,
+      "fields":
+         {
+            "val"   : 2,
+            "name": "Adopted"
+         }
+   } ,
+   {
+      "model": "grampsdb.childreftype",
+      "pk": 4,
+      "fields":
+         {
+            "val"   : 3,
+            "name": "Stepchild"
+         }
+   } ,
+   {
+      "model": "grampsdb.childreftype",
+      "pk": 5,
+      "fields":
+         {
+            "val"   : 4,
+            "name": "Sponsored"
+         }
+   } ,
+   {
+      "model": "grampsdb.childreftype",
+      "pk": 6,
+      "fields":
+         {
+            "val"   : 5,
+            "name": "Foster"
+         }
+   } ,
+   {
+      "model": "grampsdb.childreftype",
+      "pk": 7,
+      "fields":
+         {
+            "val"   : 6,
+            "name": "Unknown"
+         }
+   } ,
+   {
+      "model": "grampsdb.childreftype",
+      "pk": 8,
+      "fields":
+         {
+            "val"   : 7,
+            "name": "Custom"
+         }
+   } ,
+   {
+      "model": "grampsdb.repositorytype",
+      "pk": 1,
+      "fields":
+         {
+            "val"   : -1,
+            "name": "Unknown"
+         }
+   } ,
+   {
+      "model": "grampsdb.repositorytype",
+      "pk": 2,
+      "fields":
+         {
+            "val"   : 0,
+            "name": "Custom"
+         }
+   } ,
+   {
+      "model": "grampsdb.repositorytype",
+      "pk": 3,
+      "fields":
+         {
+            "val"   : 1,
+            "name": "Library"
+         }
+   } ,
+   {
+      "model": "grampsdb.repositorytype",
+      "pk": 4,
+      "fields":
+         {
+            "val"   : 2,
+            "name": "Cemetery"
+         }
+   } ,
+   {
+      "model": "grampsdb.repositorytype",
+      "pk": 5,
+      "fields":
+         {
+            "val"   : 3,
+            "name": "Church"
+         }
+   } ,
+   {
+      "model": "grampsdb.repositorytype",
+      "pk": 6,
+      "fields":
+         {
+            "val"   : 4,
+            "name": "Archive"
+         }
+   } ,
+   {
+      "model": "grampsdb.repositorytype",
+      "pk": 7,
+      "fields":
+         {
+            "val"   : 5,
+            "name": "Album"
+         }
+   } ,
+   {
+      "model": "grampsdb.repositorytype",
+      "pk": 8,
+      "fields":
+         {
+            "val"   : 6,
+            "name": "Web site"
+         }
+   } ,
+   {
+      "model": "grampsdb.repositorytype",
+      "pk": 9,
+      "fields":
+         {
+            "val"   : 7,
+            "name": "Bookstore"
+         }
+   } ,
+   {
+      "model": "grampsdb.repositorytype",
+      "pk": 10,
+      "fields":
+         {
+            "val"   : 8,
+            "name": "Collection"
+         }
+   } ,
+   {
+      "model": "grampsdb.repositorytype",
+      "pk": 11,
+      "fields":
+         {
+            "val"   : 9,
+            "name": "Safe"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 1,
+      "fields":
+         {
+            "val"   : -1,
+            "name": "Unknown"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 2,
+      "fields":
+         {
+            "val"   : 0,
+            "name": "Custom"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 3,
+      "fields":
+         {
+            "val"   : 11,
+            "name": "Adopted"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 4,
+      "fields":
+         {
+            "val"   : 12,
+            "name": "Birth"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 5,
+      "fields":
+         {
+            "val"   : 13,
+            "name": "Death"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 6,
+      "fields":
+         {
+            "val"   : 14,
+            "name": "Adult Christening"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 7,
+      "fields":
+         {
+            "val"   : 15,
+            "name": "Baptism"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 8,
+      "fields":
+         {
+            "val"   : 16,
+            "name": "Bar Mitzvah"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 9,
+      "fields":
+         {
+            "val"   : 17,
+            "name": "Bas Mitzvah"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 10,
+      "fields":
+         {
+            "val"   : 18,
+            "name": "Blessing"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 11,
+      "fields":
+         {
+            "val"   : 19,
+            "name": "Burial"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 12,
+      "fields":
+         {
+            "val"   : 20,
+            "name": "Cause Of Death"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 13,
+      "fields":
+         {
+            "val"   : 21,
+            "name": "Census"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 14,
+      "fields":
+         {
+            "val"   : 22,
+            "name": "Christening"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 15,
+      "fields":
+         {
+            "val"   : 23,
+            "name": "Confirmation"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 16,
+      "fields":
+         {
+            "val"   : 24,
+            "name": "Cremation"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 17,
+      "fields":
+         {
+            "val"   : 25,
+            "name": "Degree"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 18,
+      "fields":
+         {
+            "val"   : 26,
+            "name": "Education"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 19,
+      "fields":
+         {
+            "val"   : 27,
+            "name": "Elected"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 20,
+      "fields":
+         {
+            "val"   : 28,
+            "name": "Emigration"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 21,
+      "fields":
+         {
+            "val"   : 29,
+            "name": "First Communion"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 22,
+      "fields":
+         {
+            "val"   : 30,
+            "name": "Immigration"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 23,
+      "fields":
+         {
+            "val"   : 31,
+            "name": "Graduation"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 24,
+      "fields":
+         {
+            "val"   : 32,
+            "name": "Medical Information"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 25,
+      "fields":
+         {
+            "val"   : 33,
+            "name": "Military Service"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 26,
+      "fields":
+         {
+            "val"   : 34,
+            "name": "Naturalization"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 27,
+      "fields":
+         {
+            "val"   : 35,
+            "name": "Nobility Title"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 28,
+      "fields":
+         {
+            "val"   : 36,
+            "name": "Number of Marriages"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 29,
+      "fields":
+         {
+            "val"   : 37,
+            "name": "Occupation"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 30,
+      "fields":
+         {
+            "val"   : 38,
+            "name": "Ordination"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 31,
+      "fields":
+         {
+            "val"   : 39,
+            "name": "Probate"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 32,
+      "fields":
+         {
+            "val"   : 40,
+            "name": "Property"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 33,
+      "fields":
+         {
+            "val"   : 41,
+            "name": "Religion"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 34,
+      "fields":
+         {
+            "val"   : 42,
+            "name": "Residence"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 35,
+      "fields":
+         {
+            "val"   : 43,
+            "name": "Retirement"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 36,
+      "fields":
+         {
+            "val"   : 44,
+            "name": "Will"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 37,
+      "fields":
+         {
+            "val"   : 1,
+            "name": "Marriage"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 38,
+      "fields":
+         {
+            "val"   : 2,
+            "name": "Marriage Settlement"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 39,
+      "fields":
+         {
+            "val"   : 3,
+            "name": "Marriage License"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 40,
+      "fields":
+         {
+            "val"   : 4,
+            "name": "Marriage Contract"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 41,
+      "fields":
+         {
+            "val"   : 5,
+            "name": "Marriage Banns"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 42,
+      "fields":
+         {
+            "val"   : 6,
+            "name": "Engagement"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 43,
+      "fields":
+         {
+            "val"   : 7,
+            "name": "Divorce"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 44,
+      "fields":
+         {
+            "val"   : 8,
+            "name": "Divorce Filing"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 45,
+      "fields":
+         {
+            "val"   : 9,
+            "name": "Annulment"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventtype",
+      "pk": 46,
+      "fields":
+         {
+            "val"   : 10,
+            "name": "Alternate Marriage"
+         }
+   } ,
+   {
+      "model": "grampsdb.familyreltype",
+      "pk": 1,
+      "fields":
+         {
+            "val"   : 3,
+            "name": "Unknown"
+         }
+   } ,
+   {
+      "model": "grampsdb.familyreltype",
+      "pk": 2,
+      "fields":
+         {
+            "val"   : 4,
+            "name": "Custom"
+         }
+   } ,
+   {
+      "model": "grampsdb.familyreltype",
+      "pk": 3,
+      "fields":
+         {
+            "val"   : 2,
+            "name": "Civil Union"
+         }
+   } ,
+   {
+      "model": "grampsdb.familyreltype",
+      "pk": 4,
+      "fields":
+         {
+            "val"   : 1,
+            "name": "Unmarried"
+         }
+   } ,
+   {
+      "model": "grampsdb.familyreltype",
+      "pk": 5,
+      "fields":
+         {
+            "val"   : 0,
+            "name": "Married"
+         }
+   } ,
+   {
+      "model": "grampsdb.sourcemediatype",
+      "pk": 1,
+      "fields":
+         {
+            "val"   : -1,
+            "name": "Unknown"
+         }
+   } ,
+   {
+      "model": "grampsdb.sourcemediatype",
+      "pk": 2,
+      "fields":
+         {
+            "val"   : 0,
+            "name": "Custom"
+         }
+   } ,
+   {
+      "model": "grampsdb.sourcemediatype",
+      "pk": 3,
+      "fields":
+         {
+            "val"   : 1,
+            "name": "Audio"
+         }
+   } ,
+   {
+      "model": "grampsdb.sourcemediatype",
+      "pk": 4,
+      "fields":
+         {
+            "val"   : 2,
+            "name": "Book"
+         }
+   } ,
+   {
+      "model": "grampsdb.sourcemediatype",
+      "pk": 5,
+      "fields":
+         {
+            "val"   : 3,
+            "name": "Card"
+         }
+   } ,
+   {
+      "model": "grampsdb.sourcemediatype",
+      "pk": 6,
+      "fields":
+         {
+            "val"   : 4,
+            "name": "Electronic"
+         }
+   } ,
+   {
+      "model": "grampsdb.sourcemediatype",
+      "pk": 7,
+      "fields":
+         {
+            "val"   : 5,
+            "name": "Fiche"
+         }
+   } ,
+   {
+      "model": "grampsdb.sourcemediatype",
+      "pk": 8,
+      "fields":
+         {
+            "val"   : 6,
+            "name": "Film"
+         }
+   } ,
+   {
+      "model": "grampsdb.sourcemediatype",
+      "pk": 9,
+      "fields":
+         {
+            "val"   : 7,
+            "name": "Magazine"
+         }
+   } ,
+   {
+      "model": "grampsdb.sourcemediatype",
+      "pk": 10,
+      "fields":
+         {
+            "val"   : 8,
+            "name": "Manuscript"
+         }
+   } ,
+   {
+      "model": "grampsdb.sourcemediatype",
+      "pk": 11,
+      "fields":
+         {
+            "val"   : 9,
+            "name": "Map"
+         }
+   } ,
+   {
+      "model": "grampsdb.sourcemediatype",
+      "pk": 12,
+      "fields":
+         {
+            "val"   : 10,
+            "name": "Newspaper"
+         }
+   } ,
+   {
+      "model": "grampsdb.sourcemediatype",
+      "pk": 13,
+      "fields":
+         {
+            "val"   : 11,
+            "name": "Photo"
+         }
+   } ,
+   {
+      "model": "grampsdb.sourcemediatype",
+      "pk": 14,
+      "fields":
+         {
+            "val"   : 12,
+            "name": "Tombstone"
+         }
+   } ,
+   {
+      "model": "grampsdb.sourcemediatype",
+      "pk": 15,
+      "fields":
+         {
+            "val"   : 13,
+            "name": "Video"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventroletype",
+      "pk": 1,
+      "fields":
+         {
+            "val"   : -1,
+            "name": "Unknown"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventroletype",
+      "pk": 2,
+      "fields":
+         {
+            "val"   : 0,
+            "name": "Custom"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventroletype",
+      "pk": 3,
+      "fields":
+         {
+            "val"   : 1,
+            "name": "Primary"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventroletype",
+      "pk": 4,
+      "fields":
+         {
+            "val"   : 2,
+            "name": "Clergy"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventroletype",
+      "pk": 5,
+      "fields":
+         {
+            "val"   : 3,
+            "name": "Celebrant"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventroletype",
+      "pk": 6,
+      "fields":
+         {
+            "val"   : 4,
+            "name": "Aide"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventroletype",
+      "pk": 7,
+      "fields":
+         {
+            "val"   : 5,
+            "name": "Bride"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventroletype",
+      "pk": 8,
+      "fields":
+         {
+            "val"   : 6,
+            "name": "Groom"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventroletype",
+      "pk": 9,
+      "fields":
+         {
+            "val"   : 7,
+            "name": "Witness"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventroletype",
+      "pk": 10,
+      "fields":
+         {
+            "val"   : 8,
+            "name": "Family"
+         }
+   } ,
+   {
+      "model": "grampsdb.eventroletype",
+      "pk": 11,
+      "fields":
+         {
+            "val"   : 9,
+            "name": "Informant"
+         }
+   } ,
+   {
+      "model": "grampsdb.notetype",
+      "pk": 1,
+      "fields":
+         {
+            "val"   : -1,
+            "name": "Unknown"
+         }
+   } ,
+   {
+      "model": "grampsdb.notetype",
+      "pk": 2,
+      "fields":
+         {
+            "val"   : 0,
+            "name": "Custom"
+         }
+   } ,
+   {
+      "model": "grampsdb.notetype",
+      "pk": 3,
+      "fields":
+         {
+            "val"   : 1,
+            "name": "General"
+         }
+   } ,
+   {
+      "model": "grampsdb.notetype",
+      "pk": 4,
+      "fields":
+         {
+            "val"   : 2,
+            "name": "Research"
+         }
+   } ,
+   {
+      "model": "grampsdb.notetype",
+      "pk": 5,
+      "fields":
+         {
+            "val"   : 3,
+            "name": "Transcript"
+         }
+   } ,
+   {
+      "model": "grampsdb.notetype",
+      "pk": 6,
+      "fields":
+         {
+            "val"   : 21,
+            "name": "Source text"
+         }
+   } ,
+   {
+      "model": "grampsdb.notetype",
+      "pk": 7,
+      "fields":
+         {
+            "val"   : 22,
+            "name": "Citation"
+         }
+   } ,
+   {
+      "model": "grampsdb.notetype",
+      "pk": 8,
+      "fields":
+         {
+            "val"   : 23,
+            "name": "Report"
+         }
+   } ,
+   {
+      "model": "grampsdb.notetype",
+      "pk": 9,
+      "fields":
+         {
+            "val"   : 24,
+            "name": "Html code"
+         }
+   } ,
+   {
+      "model": "grampsdb.notetype",
+      "pk": 10,
+      "fields":
+         {
+            "val"   : 25,
+            "name": "To Do"
+         }
+   } ,
+   {
+      "model": "grampsdb.notetype",
+      "pk": 11,
+      "fields":
+         {
+            "val"   : 4,
+            "name": "Person Note"
+         }
+   } ,
+   {
+      "model": "grampsdb.notetype",
+      "pk": 12,
+      "fields":
+         {
+            "val"   : 20,
+            "name": "Name Note"
+         }
+   } ,
+   {
+      "model": "grampsdb.notetype",
+      "pk": 13,
+      "fields":
+         {
+            "val"   : 5,
+            "name": "Attribute Note"
+         }
+   } ,
+   {
+      "model": "grampsdb.notetype",
+      "pk": 14,
+      "fields":
+         {
+            "val"   : 6,
+            "name": "Address Note"
+         }
+   } ,
+   {
+      "model": "grampsdb.notetype",
+      "pk": 15,
+      "fields":
+         {
+            "val"   : 7,
+            "name": "Association Note"
+         }
+   } ,
+   {
+      "model": "grampsdb.notetype",
+      "pk": 16,
+      "fields":
+         {
+            "val"   : 8,
+            "name": "LDS Note"
+         }
+   } ,
+   {
+      "model": "grampsdb.notetype",
+      "pk": 17,
+      "fields":
+         {
+            "val"   : 9,
+            "name": "Family Note"
+         }
+   } ,
+   {
+      "model": "grampsdb.notetype",
+      "pk": 18,
+      "fields":
+         {
+            "val"   : 10,
+            "name": "Event Note"
+         }
+   } ,
+   {
+      "model": "grampsdb.notetype",
+      "pk": 19,
+      "fields":
+         {
+            "val"   : 11,
+            "name": "Event Reference Note"
+         }
+   } ,
+   {
+      "model": "grampsdb.notetype",
+      "pk": 20,
+      "fields":
+         {
+            "val"   : 12,
+            "name": "Source Note"
+         }
+   } ,
+   {
+      "model": "grampsdb.notetype",
+      "pk": 21,
+      "fields":
+         {
+            "val"   : 13,
+            "name": "Source Reference Note"
+         }
+   } ,
+   {
+      "model": "grampsdb.notetype",
+      "pk": 22,
+      "fields":
+         {
+            "val"   : 14,
+            "name": "Place Note"
+         }
+   } ,
+   {
+      "model": "grampsdb.notetype",
+      "pk": 23,
+      "fields":
+         {
+            "val"   : 15,
+            "name": "Repository Note"
+         }
+   } ,
+   {
+      "model": "grampsdb.notetype",
+      "pk": 24,
+      "fields":
+         {
+            "val"   : 16,
+            "name": "Repository Reference Note"
+         }
+   } ,
+   {
+      "model": "grampsdb.notetype",
+      "pk": 25,
+      "fields":
+         {
+            "val"   : 17,
+            "name": "Media Note"
+         }
+   } ,
+   {
+      "model": "grampsdb.notetype",
+      "pk": 26,
+      "fields":
+         {
+            "val"   : 18,
+            "name": "Media Reference Note"
+         }
+   } ,
+   {
+      "model": "grampsdb.notetype",
+      "pk": 27,
+      "fields":
+         {
+            "val"   : 19,
+            "name": "Child Reference Note"
+         }
+   } ,
+   {
+      "model": "grampsdb.gendertype",
+      "pk": 1,
+      "fields":
+         {
+            "val"   : 2,
+            "name": "Unknown"
+         }
+   } ,
+   {
+      "model": "grampsdb.gendertype",
+      "pk": 2,
+      "fields":
+         {
+            "val"   : 1,
+            "name": "Male"
+         }
+   } ,
+   {
+      "model": "grampsdb.gendertype",
+      "pk": 3,
+      "fields":
+         {
+            "val"   : 0,
+            "name": "Female"
+         }
+   } ,
+   {
+      "model": "grampsdb.ldstype",
+      "pk": 1,
+      "fields":
+         {
+            "val"   : 0,
+            "name": "Baptism"
+         }
+   } ,
+   {
+      "model": "grampsdb.ldstype",
+      "pk": 2,
+      "fields":
+         {
+            "val"   : 1,
+            "name": "Endowment"
+         }
+   } ,
+   {
+      "model": "grampsdb.ldstype",
+      "pk": 3,
+      "fields":
+         {
+            "val"   : 2,
+            "name": "Seal to Parents"
+         }
+   } ,
+   {
+      "model": "grampsdb.ldstype",
+      "pk": 4,
+      "fields":
+         {
+            "val"   : 3,
+            "name": "Seal to Spouse"
+         }
+   } ,
+   {
+      "model": "grampsdb.ldstype",
+      "pk": 5,
+      "fields":
+         {
+            "val"   : 4,
+            "name": "Confirmation"
+         }
+   } ,
+   {
+      "model": "grampsdb.ldsstatus",
+      "pk": 1,
+      "fields":
+         {
+            "val"   : 0,
+            "name": "None"
+         }
+   } ,
+   {
+      "model": "grampsdb.ldsstatus",
+      "pk": 2,
+      "fields":
+         {
+            "val"   : 1,
+            "name": "BIC"
+         }
+   } ,
+   {
+      "model": "grampsdb.ldsstatus",
+      "pk": 3,
+      "fields":
+         {
+            "val"   : 2,
+            "name": "Canceled"
+         }
+   } ,
+   {
+      "model": "grampsdb.ldsstatus",
+      "pk": 4,
+      "fields":
+         {
+            "val"   : 3,
+            "name": "Child"
+         }
+   } ,
+   {
+      "model": "grampsdb.ldsstatus",
+      "pk": 5,
+      "fields":
+         {
+            "val"   : 4,
+            "name": "Cleared"
+         }
+   } ,
+   {
+      "model": "grampsdb.ldsstatus",
+      "pk": 6,
+      "fields":
+         {
+            "val"   : 5,
+            "name": "Completed"
+         }
+   } ,
+   {
+      "model": "grampsdb.ldsstatus",
+      "pk": 7,
+      "fields":
+         {
+            "val"   : 6,
+            "name": "Dns"
+         }
+   } ,
+   {
+      "model": "grampsdb.ldsstatus",
+      "pk": 8,
+      "fields":
+         {
+            "val"   : 7,
+            "name": "Infant"
+         }
+   } ,
+   {
+      "model": "grampsdb.ldsstatus",
+      "pk": 9,
+      "fields":
+         {
+            "val"   : 8,
+            "name": "Pre 1970"
+         }
+   } ,
+   {
+      "model": "grampsdb.ldsstatus",
+      "pk": 10,
+      "fields":
+         {
+            "val"   : 9,
+            "name": "Qualified"
+         }
+   } ,
+   {
+      "model": "grampsdb.ldsstatus",
+      "pk": 11,
+      "fields":
+         {
+            "val"   : 10,
+            "name": "DNSCAN"
+         }
+   } ,
+   {
+      "model": "grampsdb.ldsstatus",
+      "pk": 12,
+      "fields":
+         {
+            "val"   : 11,
+            "name": "Stillborn"
+         }
+   } ,
+   {
+      "model": "grampsdb.ldsstatus",
+      "pk": 13,
+      "fields":
+         {
+            "val"   : 12,
+            "name": "Submitted"
+         }
+   } ,
+   {
+      "model": "grampsdb.ldsstatus",
+      "pk": 14,
+      "fields":
+         {
+            "val"   : 13,
+            "name": "Uncleared"
+         }
+   } ,
+   {
+      "model": "grampsdb.nameformattype",
+      "pk": 1,
+      "fields":
+         {
+            "val"   : 0,
+            "name": "Default format"
+         }
+   } ,
+   {
+      "model": "grampsdb.nameformattype",
+      "pk": 2,
+      "fields":
+         {
+            "val"   : 1,
+            "name": "Surname, Given Patronymic"
+         }
+   } ,
+   {
+      "model": "grampsdb.nameformattype",
+      "pk": 3,
+      "fields":
+         {
+            "val"   : 2,
+            "name": "Given Surname"
+         }
+   } ,
+   {
+      "model": "grampsdb.nameformattype",
+      "pk": 4,
+      "fields":
+         {
+            "val"   : 3,
+            "name": "Patronymic, Given"
+         }
+   } ,
+   {
+      "model": "grampsdb.styledtexttagtype",
+      "pk": 1,
+      "fields":
+         {
+            "val"   : 0,
+            "name": "bold"
+         }
+   } ,
+   {
+      "model": "grampsdb.styledtexttagtype",
+      "pk": 2,
+      "fields":
+         {
+            "val"   : 1,
+            "name": "italic"
+         }
+   } ,
+   {
+      "model": "grampsdb.styledtexttagtype",
+      "pk": 3,
+      "fields":
+         {
+            "val"   : 2,
+            "name": "underline"
+         }
+   } ,
+   {
+      "model": "grampsdb.styledtexttagtype",
+      "pk": 4,
+      "fields":
+         {
+            "val"   : 3,
+            "name": "fontface"
+         }
+   } ,
+   {
+      "model": "grampsdb.styledtexttagtype",
+      "pk": 5,
+      "fields":
+         {
+            "val"   : 4,
+            "name": "fontsize"
+         }
+   } ,
+   {
+      "model": "grampsdb.styledtexttagtype",
+      "pk": 6,
+      "fields":
+         {
+            "val"   : 5,
+            "name": "fontcolor"
+         }
+   } ,
+   {
+      "model": "grampsdb.styledtexttagtype",
+      "pk": 7,
+      "fields":
+         {
+            "val"   : 6,
+            "name": "highlight"
+         }
+   } ,
+   {
+      "model": "grampsdb.styledtexttagtype",
+      "pk": 8,
+      "fields":
+         {
+            "val"   : 7,
+            "name": "superscript"
+         }
+   } ,
+   {
+      "model": "grampsdb.styledtexttagtype",
+      "pk": 9,
+      "fields":
+         {
+            "val"   : 8,
+            "name": "link"
+         }
+   } ,
+   {
+      "model": "grampsdb.themetype",
+      "pk": 1,
+      "fields":
+         {
+            "val"   : 0,
+            "name": "Web_Mainz.css"
+         }
+   } ,
+   {
+      "model": "grampsdb.themetype",
+      "pk": 2,
+      "fields":
+         {
+            "val"   : 1,
+            "name": "Web_Basic-Ash.css"
+         }
+   } ,
+   {
+      "model": "grampsdb.themetype",
+      "pk": 3,
+      "fields":
+         {
+            "val"   : 2,
+            "name": "Web_Basic-Cypress.css"
+         }
+   } ,
+   {
+      "model": "grampsdb.themetype",
+      "pk": 4,
+      "fields":
+         {
+            "val"   : 3,
+            "name": "Web_Nebraska.css"
+         }
+   } ,
+   {
+      "model": "grampsdb.themetype",
+      "pk": 5,
+      "fields":
+         {
+            "val"   : 4,
+            "name": "Web_Basic-Lilac.css"
+         }
+   } ,
+   {
+      "model": "grampsdb.themetype",
+      "pk": 6,
+      "fields":
+         {
+            "val"   : 5,
+            "name": "Web_Print-Default.css"
+         }
+   } ,
+   {
+      "model": "grampsdb.themetype",
+      "pk": 7,
+      "fields":
+         {
+            "val"   : 6,
+            "name": "Web_Basic-Peach.css"
+         }
+   } ,
+   {
+      "model": "grampsdb.themetype",
+      "pk": 8,
+      "fields":
+         {
+            "val"   : 7,
+            "name": "Web_Visually.css"
+         }
+   } ,
+   {
+      "model": "grampsdb.themetype",
+      "pk": 9,
+      "fields":
+         {
+            "val"   : 8,
+            "name": "Web_Basic-Spruce.css"
+         }
+   } ,
+   {
+      "model": "grampsdb.placetype",
+      "pk": 1,
+      "fields":
+         {
+            "val"   : -1,
+            "name": "Unknown"
+         }
+   } ,
+   {
+      "model": "grampsdb.placetype",
+      "pk": 2,
+      "fields":
+         {
+            "val"   : 0,
+            "name": "Custom"
+         }
+   } ,
+   {
+      "model": "grampsdb.placetype",
+      "pk": 3,
+      "fields":
+         {
+            "val"   : 1,
+            "name": "Country"
+         }
+   } ,
+   {
+      "model": "grampsdb.placetype",
+      "pk": 4,
+      "fields":
+         {
+            "val"   : 2,
+            "name": "State"
+         }
+   } ,
+   {
+      "model": "grampsdb.placetype",
+      "pk": 5,
+      "fields":
+         {
+            "val"   : 3,
+            "name": "County"
+         }
+   } ,
+   {
+      "model": "grampsdb.placetype",
+      "pk": 6,
+      "fields":
+         {
+            "val"   : 4,
+            "name": "City"
+         }
+   } ,
+   {
+      "model": "grampsdb.placetype",
+      "pk": 7,
+      "fields":
+         {
+            "val"   : 5,
+            "name": "Parish"
+         }
+   } ,
+   {
+      "model": "grampsdb.placetype",
+      "pk": 8,
+      "fields":
+         {
+            "val"   : 6,
+            "name": "Locality"
+         }
+   } ,
+   {
+      "model": "grampsdb.placetype",
+      "pk": 9,
+      "fields":
+         {
+            "val"   : 7,
+            "name": "Street"
+         }
+   } ,
+   {
+      "model": "grampsdb.placetype",
+      "pk": 10,
+      "fields":
+         {
+            "val"   : 8,
+            "name": "Province"
+         }
+   } ,
+   {
+      "model": "grampsdb.placetype",
+      "pk": 11,
+      "fields":
+         {
+            "val"   : 9,
+            "name": "Region"
+         }
+   } ,
+   {
+      "model": "grampsdb.placetype",
+      "pk": 12,
+      "fields":
+         {
+            "val"   : 10,
+            "name": "Department"
+         }
+   } ,
+   {
+      "model": "grampsdb.placetype",
+      "pk": 13,
+      "fields":
+         {
+            "val"   : 11,
+            "name": "Neighborhood"
+         }
+   } ,
+   {
+      "model": "grampsdb.placetype",
+      "pk": 14,
+      "fields":
+         {
+            "val"   : 12,
+            "name": "District"
+         }
+   } ,
+   {
+      "model": "grampsdb.placetype",
+      "pk": 15,
+      "fields":
+         {
+            "val"   : 13,
+            "name": "Borough"
+         }
+   } ,
+   {
+      "model": "grampsdb.placetype",
+      "pk": 16,
+      "fields":
+         {
+            "val"   : 14,
+            "name": "Municipality"
+         }
+   } ,
+   {
+      "model": "grampsdb.placetype",
+      "pk": 17,
+      "fields":
+         {
+            "val"   : 15,
+            "name": "Town"
+         }
+   } ,
+   {
+      "model": "grampsdb.placetype",
+      "pk": 18,
+      "fields":
+         {
+            "val"   : 16,
+            "name": "Village"
+         }
+   } ,
+   {
+      "model": "grampsdb.placetype",
+      "pk": 19,
+      "fields":
+         {
+            "val"   : 17,
+            "name": "Hamlet"
+         }
+   } ,
+   {
+      "model": "grampsdb.placetype",
+      "pk": 20,
+      "fields":
+         {
+            "val"   : 18,
+            "name": "Farm"
+         }
+   } ,
+   {
+      "model": "grampsdb.placetype",
+      "pk": 21,
+      "fields":
+         {
+            "val"   : 19,
+            "name": "Building"
+         }
+   } ,
+   {
+      "model": "grampsdb.placetype",
+      "pk": 22,
+      "fields":
+         {
+            "val"   : 20,
+            "name": "Number"
+         }
+   } 
+]
